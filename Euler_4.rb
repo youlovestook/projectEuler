@@ -1,5 +1,5 @@
 # joshua stuckey 11/2/2012
-# project Euler problem_1
+# project Euler problem_4
 
 #A palindromic number reads the same both ways. 
 #The largest palindrome made from the product of 
