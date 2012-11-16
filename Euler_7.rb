@@ -32,7 +32,7 @@ for i in 0 .. 100000000
 
         puts "#{i} is prime and counter is #{counter}"
         counter = counter + 1
-        break if counter > 10
+        break if counter > 10001
     end
        
 end
