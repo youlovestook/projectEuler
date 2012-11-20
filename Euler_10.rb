@@ -46,8 +46,9 @@ tend=Time.now
 tdiff =tend-tbegin
 puts "Time taken for finding the answer is:" + tdiff.to_s + "Seconds"
 
-# just amended my code from euler_7.rb takes about 46 seconds.
-# 
+# just amended my code from euler_7.rb takes about 47.68 sec.
+# found the Time class too, will start using it in all my Euler code from now
+# on.
 
 
 
