@@ -35,8 +35,7 @@ while k.to_s().length < 1000
 
 	
      counter = counter + 1
-	 #puts k
-	 #puts counter
+	 
      end
 puts counter
 
