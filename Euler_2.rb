@@ -6,6 +6,7 @@
 # 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
 # By considering the terms in the Fibonacci sequence whose values do not exceed four million,
 # find the sum of the even-valued terms.
+tbegin = Time.now
 
 counter = 0
 i = 0
@@ -27,6 +28,7 @@ end
 tend=Time.now
 tdiff =tend-tbegin
 puts "Time taken for finding the answer is:" + tdiff.to_s + "Seconds"
+
 # This one didnt take very long, get the fibonnaci calculated and then pull the even valued 
 # terms and add them up. Found this interesting solution on the Euler Forums after i solved..
 # pretty much the same as mine but with some different organization and syntax. Ill take a 

@@ -117,5 +117,11 @@ tend=Time.now
 tdiff =tend-tbegin
 puts "Time taken for finding the answer is:" + tdiff.to_s + "Seconds"
 
+# for my solution I used an array and acted on it like it was a grid.
+# 4 different chunks of code, one for each direction of the 4 adjacent numbers
+# I used a variable called phase in order to act on the array as if a grid, the phase
+# variable enabled me to break the loop into just the sections of the array that i needed to work
+# the multiplication on. In other words i figured the parts of the array that needed to be multiplied
+# in each direction and then punched in the largest one. takes very little time.
 
 
